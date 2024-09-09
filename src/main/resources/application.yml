@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: springboot-demo
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root   #database username
+    password: ZS19960203ryf #database password
+    url: jdbc:mysql://localhost:3306/glint_springboot_demo?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=America/New_York&allowPublicKeyRetrieval=true
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+
+server:
+  port: 8081
+
+
